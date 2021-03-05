@@ -1,8 +1,11 @@
+import About from './components/About';
+import Layout from './components/Layout';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">hello</header>
-    </div>
+    <Layout>
+      <About></About>
+    </Layout>
   );
 }
 
