@@ -1,6 +1,8 @@
 const Layout = ({ children }) => {
   return (
-    <div className="p-5 sm:p-0 antialiased container mx-auto">{children}</div>
+    <div className=" font-mono	p-5 sm:p-0 antialiased container mx-auto">
+      {children}
+    </div>
   );
 };
 
