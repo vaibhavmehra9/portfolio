@@ -17,7 +17,7 @@ const Skills = () => {
       </h1>
       <div className="grid sm:grid-cols-3  gap-10 grid-cols-1 my-20">
         {skillArr.map((skill) => (
-          <div className="bg-blue-100 px-5 py-3 rounded-xl shadow-md text-2xl font-bold text-blue-500 text-center uppercase">
+          <div className="bg-blue-50 px-5 py-3 rounded-xl  text-2xl font-bold text-blue-500 text-center uppercase">
             {skill}
           </div>
         ))}
