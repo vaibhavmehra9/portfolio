@@ -1,5 +1,7 @@
 const Layout = ({ children }) => {
-  return <div className="antialiased container mx-auto">{children}</div>;
+  return (
+    <div className="p-5 sm:p-0 antialiased container mx-auto">{children}</div>
+  );
 };
 
 export default Layout;

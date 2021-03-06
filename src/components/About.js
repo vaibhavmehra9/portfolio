@@ -1,10 +1,10 @@
 const About = () => {
   return (
     <div className="h-screen flex flex-col justify-center text-center">
-      <h1 className="font-bold text-6xl text-gray-800">
-        Hi, I'm <span className="text-indigo-500">Vaibhav Mehra</span>
+      <h1 className="font-bold text-4xl sm:text-7xl text-gray-800">
+        Hi, I'm <span className="text-blue-500">Vaibhav Mehra</span>
       </h1>
-      <div className="my-10 mx-auto px-5 py-3 rounded-xl shadow-md text-2xl font-bold bg-indigo-100 text-indigo-500">
+      <div className="my-10 mx-auto px-5 py-3 rounded-xl shadow-md text-2xl font-bold bg-blue-100 text-blue-500">
         Software Engineer
       </div>
       <p className="text-gray-500 text-xl max-w-xl mx-auto leading-10">
