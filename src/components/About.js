@@ -1,13 +1,14 @@
 import { Images } from '../assets/resource';
+import { name, description, title } from '../data.json';
 
 const About = () => {
   return (
     <div className="flex flex-col justify-center text-center my-20">
       <h1 className="font-bold text-4xl sm:text-7xl text-gray-800">
-        Hi, I'm <span className="text-blue-500">Vaibhav Mehra</span>
+        Hi, I'm <span className="text-green-500">{name}</span>
       </h1>
-      <div className="my-10 mx-auto px-5 py-3 rounded-xl  text-2xl font-bold bg-blue-50 text-blue-500">
-        Software Engineer
+      <div className="my-10 mx-auto px-5 py-3 rounded-xl  text-2xl font-bold bg-green-50 text-green-500">
+        {title}
       </div>
       <div className="mx-auto mb-10">
         <img
@@ -17,8 +18,7 @@ const About = () => {
         />
       </div>
       <p className="text-gray-500 text-2xl max-w-2xl mx-auto leading-10">
-        Hi I'm Vaibhav Mehra a 24 years old Web Developer from India, currently
-        working as a Software Engineer at Tata AIG.
+        {description}
       </p>
     </div>
   );
